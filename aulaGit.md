@@ -14,3 +14,4 @@
 | git log | Visualizar a lista de commit
 | git checkout -b + nome da ramificação de branch | Cria uma ramificação ligada a ramificação principal "main" onde tem acesso a tudo que foi criado antes dessa ramificação.|
 | git checkout + nome da branch | Muda da branch em uso para uma outra branch que foi selecionado. |
+| git checkout | Mostra a lista de branch que existe no projeto |
