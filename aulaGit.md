@@ -16,3 +16,4 @@
 | git checkout + nome da branch | Muda da branch em uso para uma outra branch que foi selecionado. |
 | git checkout | Mostra a lista de branch que existe no projeto |
 | git merge + nome da branch | serve para mesclar uma branch segundária com a principal. A branch principal nesse caso é a "main" e a secundária é a "github". |
+| git branch -d + nome da branch | Serve para deletar uma branch que já está finalizada e mesclada com a principal. |
