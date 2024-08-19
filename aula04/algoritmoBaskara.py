@@ -1,0 +1,1 @@
+# crie um algoritimo capaz de calcular o delta da formula de bascara
