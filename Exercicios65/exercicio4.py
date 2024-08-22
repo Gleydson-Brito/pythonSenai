@@ -2,17 +2,15 @@
 from ssl import VERIFY_DEFAULT
 
 
-cor1 = 1
-cor2 = 2
-cor3 = 3
 
-cor = int(input('Escolha uma cor entre vermelho(1), verde(2) e azul(3) '))
 
-if(cor == 1):
-    print('Cor vermelha')
-elif(cor == 2):
-    print('Cor verde')
-elif(cor == 3):
-    print('Cor azul')
+cor = str(input('Escolha uma cor entre vermelho, verde e azul '))
+
+if(cor == 'vermelho'):
+    print('Você escolheu a cor vermelha')
+elif(cor == 'verde'):
+    print('Você escolheu a cor verde')
+elif(cor == 'azul'):
+    print('Você escolheu a cor azul')
 else:
-    print('teste')
+    print('Você não escolheu nenhuma das cores')
