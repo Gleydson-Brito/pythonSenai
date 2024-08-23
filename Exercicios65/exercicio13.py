@@ -2,13 +2,13 @@
 
 mes = int(input('Escolha um número de 1 a 12 correspondente ao mês do ano \n'))
 
-if mes > 0 and mes == 3:
+if mes >= 1 and mes <= 3:
     print('Esse mês nós estaremos na primavera')
-elif mes > 3 and mes < 6:
+elif mes >= 4 and mes <= 6:
     print('Esse mês nós estaremos no verão')
-elif mes > 6 and mes <= 9:
+elif mes >= 7 and mes <= 9:
     print('Esse mês nós estaremos no outono')
-elif mes == 10 and mes <=12:
+elif mes >= 10 and mes <=12:
     print('Esse mês nós estaremos no inverno')
 else:
-    print('O ano só tem 12 meses')
+    print('Escolha inválida')

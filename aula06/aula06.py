@@ -12,7 +12,7 @@
 # else:
 #     print('Candidado inválido')
 
-# Utilizando a esctrutura 'match' onde se ele não tiver nenhum número correspondente ao candidato, que está representado no comando 'case 13:' onde caso não seja
+# Utilizando a estrutura 'match' onde se ele não tiver nenhum número correspondente ao candidato, que está representado no comando 'case 13:' onde caso não seja
 # nenhum dos números que estão relacionado em 'case + número', então tenho que colocar uma variável para caso a escolha de candidato não exista, que no caso seria
 # o comando 'case _:'
 
