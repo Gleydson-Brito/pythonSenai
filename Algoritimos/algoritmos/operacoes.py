@@ -1,5 +1,3 @@
-
-
 nomes = []
 
 def menu():

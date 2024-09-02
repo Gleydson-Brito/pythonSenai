@@ -33,4 +33,3 @@ while operacao == 'sim':
 
     if operacao != 'sim':
         break
-    
