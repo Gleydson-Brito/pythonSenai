@@ -23,7 +23,8 @@ numeros = [
     [25, 100, 121]
 ]
 
-
+for a, b, c in numeros:
+    print(a, b, c)
 
 # for numero in numeros:
 #     print(numero)
