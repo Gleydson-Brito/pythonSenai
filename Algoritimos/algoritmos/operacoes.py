@@ -1,3 +1,6 @@
+import email
+
+
 nomes = []
 
 def menu():
@@ -12,7 +15,8 @@ def listar_nomes():
         print(f' {indice} - {nome}')
 
 def cadastrar_nome(nome):
-    nomes.append(nome)
+    aluno = {'nome': nome, 'email': email, 'data_nascimento': data_nascimento }
+    nomes.append(nome, email, data_nascimento )
 
 def atualiza_nome(nome, novo_nome):
     nomes[nomes.index(nome)] = novo_nome
